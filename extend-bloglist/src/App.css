@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notification {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.good {
+  color: green;
+  background-color: rgba(0, 253, 0, 0.1);
+  border: 1px solid green;
+}
+
+.bad {
+  color: red;
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, .1);
+}
